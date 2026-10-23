@@ -2,7 +2,7 @@ name: maple-name-watch
  
 on:
   schedule:
-    - cron: "*/5 * * * *"   # 5분마다 (GitHub 사정에 따라 지연될 수 있음)
+    - cron: "*/10 * * * *"   # 10분마다 (GitHub 사정에 따라 지연될 수 있음)
   workflow_dispatch:         # Actions 탭에서 수동 실행용
  
 jobs:
